@@ -1,0 +1,134 @@
+.contactList{
+    background-color: #EFF1F3;
+    /* height: 520px; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33%;
+    height: 100%;
+    z-index: 100;
+}
+
+.backArrow{
+    max-width: 20px !important;
+    overflow: visible;
+}
+
+.messageSide{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 66%;
+    height: 100%;
+}
+
+.chatSender {
+    width: 368px;
+    height: 64px;
+    background: #EFF1F3;
+    border-radius: 0px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.chatReceiver{
+    width: 368px;
+    height: 64px;
+    background: #EFF1F3;
+    border-radius: 15px 0 15px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.activeContact{
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 0.5 all;
+}
+
+.activeContact b:nth-child(1){
+    position: absolute;
+    top: -20px;
+    right: 0;
+    height: 20px;
+    width: 20%;
+    background: white;
+}
+
+.activeContact b:nth-child(2){
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    height: 20px;
+    width: 20%;
+    background: white;
+}
+
+.activeContact b:nth-child(1):before, .activeContact b:nth-child(2):before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #EFF1F3;
+    border-bottom-right-radius: 15px;
+}
+
+.activeContact b:nth-child(2):before{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 15px;
+}
+
+.messageBadge{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #69D600;
+    font-size: 14px;
+    padding: 7px;
+    position: relative;
+    margin-right: 14px;
+}
+
+.sendButton{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.sendButton:hover, .sendButton:focus, .sendButton:active{
+    background-color: #002245;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contactList{
+        border-radius: 20px !important;
+    }
+
+    .activeContact{
+        margin-right: 1rem;
+        border-radius: 10px;
+    }
+    .activeContact b::before{
+        border-radius: 0px !important;
+    }
+    .normalContact{
+        margin-right: 1rem;
+    }
+
+    .chatSender{
+        width: 300px;
+    }
+
+    .chatReceiver{
+        width: 300px;
+    }
+}

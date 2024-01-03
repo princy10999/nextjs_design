@@ -1,0 +1,688 @@
+/* All the Font types */
+@font-face {
+    font-family: 'Axiforma Regular';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Black';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Black.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Black Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Black\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Bold';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Bold.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Bold Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Bold\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Book';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Book.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Book Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Book\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma ExtraBold';
+    src: url('fonts/Kastelov\ -\ Axiforma\ ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma ExtraBold Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ ExtraBold\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Heavy';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Heavy.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Heavy Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Heavy\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Light';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Light.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Light Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Light\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Medium';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Medium.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Medium Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Medium\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma SemiBold';
+    src: url('fonts/Kastelov\ -\ Axiforma\ SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma SemiBold Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ SemiBold\ Italic.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Thin';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Thin.otf');
+}
+
+@font-face {
+    font-family: 'Axiforma Thin Italic';
+    src: url('fonts/Kastelov\ -\ Axiforma\ Thin\ Italic.otf');
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Axiforma Regular';
+    background: white !important;
+    color: black !important;
+    box-sizing: border-box !important;
+}
+
+.bodyContent {
+    min-height: 90vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* All the Font Family Classes */
+.axiformaRegular{
+    font-family: 'Axiforma Regular';
+}
+
+.axiformaMedium{
+    font-family: 'Axiforma Medium';
+}
+
+.axiformaBold{
+    font-family: 'Axiforma Bold';
+}
+
+.axiformaExtraBold{
+    font-family: 'Axiforma ExtraBold';
+}
+
+.axiformaSemiBold{
+    font-family: 'Axiforma SemiBold';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #777; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+
+    body {
+        color: white;
+        background: black;
+    }
+}
+
+.nav-link:focus {
+    color: #002245;
+}
+
+.page-item {
+    padding: 0 5px;
+}
+
+.page-link {
+    border-radius: 5px;
+    border-color: #EFF1F3;
+    color: rgba(15, 13, 13, 0.411);
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.page-link:hover {
+    background-color: transparent;
+    color: rgba(15, 13, 13, 0.411);
+}
+
+.page-link.active,
+.active>.page-link {
+    border-color: #69D600;
+    background-color: #69D600;
+
+}
+
+td {
+    color: #002245;
+    font-size: 14px;
+}
+
+th {
+    color: #5A5968;
+    font-size: 12px;
+
+
+}
+
+.theme-text-color {
+    color: #002245;
+}
+
+.theme-color {
+    color: #002245;
+}
+
+.theme-bg-color {
+    background-color: #002245;
+}
+
+.search {
+    background-color: #103e6d;
+}
+
+.bg-button {
+    background-color: #69D600;
+    border: none !important;
+}
+
+.theme-green {
+    color: #69D600;
+}
+
+.bg-theme-green {
+    background-color: #69D600;
+}
+
+.editButton {
+    border-color: #69D600;
+}
+
+.bg-button:active {
+    background-color: #69D600 !important;
+    border: none !important;
+}
+
+.bg-button:hover {
+    background-color: #69D600 !important;
+    border: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.badge {
+    display: flex;
+    position: absolute;
+    width: 8px;
+    top: 4px;
+    height: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    left: 7px;
+    border-radius: 50%;
+}
+
+.seachIcon {
+    position: absolute;
+    left: 12px;
+    width: 19px;
+    top: 3px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-32 {
+    font-size: 32px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.m-70 {
+    margin-top: 70px;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.text-gray {
+    color: #5A5968;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border-right: none;
+}
+
+.border-left {
+    border-left: none;
+}
+
+.view {
+    width: 36px;
+    height: 36px;
+    background: #EFF1F3;
+    border-radius: 6px;
+}
+
+input.form-control.me-1.border-left.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.border-dashed {
+    border: 1px dashed #ced4da;
+}
+
+
+tr>th,
+tr>td {
+    vertical-align: middle;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.br-none {
+    border: none;
+}
+
+.w-55 {
+    width: 55px;
+}
+
+.w-33{
+    width: 33% !important;
+}
+
+.w-66{
+    width: 66% !important;
+}
+
+.w-lg-100{
+    width: 100% !important; 
+}
+
+.noContacts{
+    width: 0 !important;
+    display: none !important;
+}
+
+.status {
+    position: relative;
+}
+
+.status .badge-online,
+.status .badge-offline {
+    position: absolute;
+    background-color: #69D600;
+    width: 10px;
+    height: 10px;
+    bottom: 13px;
+    right: 0;
+    border-radius: 50%;
+}
+
+.status .badge-offline {
+    /* border: 1px solid black; */
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.chat-view {
+    width: 54px;
+    height: 54px;
+    background: #EFF1F3;
+    border: 1px solid #EFF1F3;
+    border-radius: 6px;
+}
+
+.active-now {
+    background-color: #69D600;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.h-666 {
+    min-height: 666px;
+}
+
+.sender-viewer {
+    height: 100%;
+    max-height: 480px;
+    overflow-y: auto;
+}
+
+.message {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.accepted,
+.accepted:hover,
+.accepted:focus,
+.accepted:active {
+    background: #E8FFF3 !important;
+    color: #35B26E !important;
+    /* border-color: #E8FFF3; */
+    border: none !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn:active,
+.btn:focus {
+    outline: none;
+    border: none;
+}
+
+.apexcharts-legend-text {
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+}
+
+
+.h-375 {
+    max-height: 350px !important;
+}
+
+.dateInput {
+    color: black;
+    background-color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.w-30{
+    min-width: 40px !important;
+}
+
+@media screen and (max-width: 400px) {
+
+    
+
+    .f-16{
+        font-size: 12px !important; 
+    }
+
+    .f-32{
+        font-size: 15px !important; 
+    }
+
+    .f-28{
+        font-size: 18px !important; 
+    } 
+
+    .p-40{
+        padding: 15px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+    .h-375 {
+        max-height: 380px !important;
+    }
+
+    .h-375 {
+        max-height: 380px !important;
+    }
+
+    .f-20{
+        font-size: 14px !important; 
+    }
+
+    .f-32{
+        font-size: 18px !important; 
+    }
+
+    .p-40{
+        padding: 20px !important;
+    }
+
+    .tabItem {
+        border-right: none !important;
+    }
+   
+.apexcharts-legend.apx-legend-position-right{
+    height: 210px !important;
+    position: absolute !important;
+    left: 192px !important;
+    top: 48px !important;
+    right: 5px !important;
+}
+}
+
+@media screen and (max-width: 800px) {
+
+    .w-30{
+        min-width: 35px !important;
+    }
+
+    .w-55 {
+        width: 45px !important; 
+    }
+
+     .fullwidth{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .f-20{
+        font-size: 16px; 
+    }
+
+    .f-24{
+        font-size: 18px; 
+    }
+
+    .f-28{
+        font-size: 22px; 
+    }
+
+    .f-32{
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* .fullwidth{
+        width: 100% !important;
+        max-width: 100% !important;
+    } */
+
+    .header{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0px !important;
+        overflow: auto !important;
+    }
+
+    .cu-container{
+        width: 100% !important;
+        margin: auto 0  !important;
+        max-width: 100% !important;
+    }
+
+    .f-32{
+        font-size: 22px; 
+    }
+
+    .f-28{
+        font-size: 24px; 
+    }
+
+    .f-24{
+        font-size: 22px; 
+    }
+}
+
+select>option:hover{
+    background-color: #69D600 !important;
+    background-color: #e4e4e4 !important;
+}
+
+.h-40{
+    height: 40px !important;
+}
+
+.css-1s2u09g-control, .css-1s2u09g-control:hover, .css-1s2u09g-control:focus{
+    border-color: rgb(226, 226, 226) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.apexcharts-legend-text{
+    margin: 0px 0px 0px 5px !important;
+}
+.react-datepicker__day--selected:hover{
+    background-color: #69D600 !important;
+}
+.react-datepicker__day--selected, .react-datepicker__day:hover{
+    background-color: #69D600 !important;
+}
+input.react-datepicker-ignore-onclickoutside{
+    background-color: #fff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 3px !important;
+    height: 40px !important;
+}
+.datepicker{
+    background-color: #fff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 3px !important;
+    height: 40px !important;
+    color: black;
+}
+
+.react-datepicker-popper{
+    z-index: 100 !important;
+}
+
+.apexcharts-legend-text{
+    font-family: 'Axiforma Regular' !important;
+    padding-top: 3px;
+}
+
+.accordion{
+    /* border: none !important; */
+    border-radius: 0 !important;
+}
+
+.accordion-item{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.accordion-button{
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.accordion-button:not(.collapsed), .accordion-button:focus{
+    box-shadow: none !important;
+    background-color: transparent !important ;
+}
+
+.accordion-button:not(.collapsed)::after{
+    /* background-image: inherit !important; */
+    color: #103e6d !important;
+}
+
+.accordion-body{
+    padding: 0 !important;
+    padding-top: 20px !important;
+}

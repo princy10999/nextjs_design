@@ -1,0 +1,16 @@
+.footerItem{
+    border-right: 1px solid gray;
+    padding: 0px 20px;
+    line-height: 18px;
+}
+
+.lastFooterItem{
+    padding-left: 20px;
+    line-height: 18px;
+}
+
+@media (max-width: 768px){
+    .footerItem{
+        border: none;
+    }
+}

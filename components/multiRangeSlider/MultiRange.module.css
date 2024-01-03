@@ -1,0 +1,91 @@
+  .slider {
+      position: relative;
+      width: 100%;
+  }
+
+  .sliderTrack,
+  .sliderRange,
+  .sliderLeftValue,
+  .sliderRightValue {
+      position: absolute;
+  }
+
+  .sliderTrack,
+  .sliderRange {
+      border-radius: 5px;
+      height: 10px;
+  }
+
+  .sliderTrack {
+      background-color: #EFF1F3;
+      width: 100%;
+      /* z-index: 1; */
+  }
+
+  .sliderRange {
+      background-color: #69D600;
+      z-index: 1;
+  }
+
+  .sliderLeftValue,
+  .sliderRightValue {
+      color: #5A5968;
+      font-size: 14px;
+      margin-top: 18px;
+  }
+
+  .sliderLeftValue {
+      left: 6px;
+  }
+
+  .sliderRightValue {
+      right: -4px;
+  }
+
+  /* Removing the default appearance */
+  .thumb,
+  .thumb::-webkit-slider-thumb {
+      -webkit-appearance: none;
+  }
+
+  .thumb {
+      pointer-events: none;
+      position: absolute;
+      height: 0;
+      width: 440px !important;
+      outline: none;
+  }
+
+  .thumbLeft {
+      z-index: 3;
+  }
+
+  .thumbRight {
+      z-index: 1000 !important;
+  }
+
+  /* For Chrome browsers */
+  .thumb::-webkit-slider-thumb {
+      background-color: #EFF1F3;
+      border: 3px solid #69D600;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 18px;
+      width: 18px;
+      margin-top: 8px;
+      pointer-events: all;
+      position: relative;
+  }
+
+  /* For Firefox browsers */
+  .thumb::-moz-range-thumb {
+      background-color: #EFF1F3;
+      border: 3px solid #69D600;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 18px;
+      width: 18px;
+      margin-top: 8px;
+      pointer-events: all;
+      position: relative;
+  }

@@ -1,0 +1,12 @@
+.tableBorder {
+    border: 1px solid #EFF1F3;
+    border-radius: 15px;
+}
+
+.modalHeader{
+    padding: 20px 30px !important;
+}
+
+.modalBody{
+    padding:  22px 30px !important;
+}

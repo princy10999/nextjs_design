@@ -1,0 +1,53 @@
+.navbar {
+    width: 90%;
+}
+
+.navIcon {
+    height: 28px;
+    border-right: 1px solid rgba(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.navBellIcon {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255);
+}
+
+.navBellIcon2 {
+    display: none;
+}
+
+.searchInput {
+    border: none;
+    border-radius: 5px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .navIcon {
+        border-right: none;
+        justify-content: center;
+    }
+
+    .navBellIcon {
+        display: none;
+    }
+
+    .navBtn {
+        text-align: center;
+    }
+
+    .navBellIcon2 {
+        display: block;
+        height: 28px;
+        display: flex;
+        align-items: center;
+       
+    }
+}

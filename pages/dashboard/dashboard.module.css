@@ -1,0 +1,174 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.fontSize18 {
+  font-size: 18px;
+  color: #002245;
+}
+
+.fontSize18:hover {
+  font-size: 18px;
+  color: #002245;
+}
+
+.fontSize14 {
+  font-size: 14px;
+  color: #5A5968;
+}
+
+.fontSize14:hover {
+  font-size: 14px;
+  color: #5A5968;
+}
+
+.active {
+  position: relative;
+
+  /* border-bottom: 2px solid #69D600; */
+
+}
+
+.active::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: #69D600;
+
+}
+
+.tableBorder {
+  border: 1px solid #EFF1F3;
+  border-radius: 15px;
+}
+
+.textColor {
+  color: #69D600;
+  font-size: 18px;
+
+}
+
+.textColor:hover {
+  color: #69D600;
+  font-size: 18px;
+
+}
+
+.activeChartButton {
+  background-color: #002245;
+  color: white;
+  /* padding: 10px 15px; */
+  border-radius: 10px;
+}
+
+.tableBorder {
+  border: 1px solid #EFF1F3;
+  border-radius: 15px;
+}
+
+
+/* .projectTable>tr:last-child{
+   border: 0px !important;
+} */
+
+.progress {
+  color: #FF8900;
+}
+
+.bgProgress {
+  background-color: #FEF6E6;
+}
+
+.completed {
+  color: #35B26E;
+}
+
+.bgCompleted {
+  background-color: #E8FFF3;
+}
+
+.hold {
+  color: #884DFF;
+}
+
+.bgHold {
+  background-color: #FBF1FF;
+}
+
+.cancelled {
+  color: #FB471C;
+}
+
+.bgCancelled {
+  background-color: #FFEEEA;
+}
+
+.received {
+  color: #3C53CF;
+}
+
+.bgReceived {
+  background-color: #F3F5FF;
+}
+
+.cardItem {
+  width: 223px !important;
+  border-radius: 18px;
+  display: inline-block !important;
+  margin-right: 20px;
+}
+
+.premiumBaner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.projectBanner1 {
+  background-color: #FFC0B1;
+}
+
+.projectBanner2 {
+  background-color: #D6FCB1;
+}
+
+.projectImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.mainInquiries{
+  overflow: hidden !important; 
+}
+
+@media screen and (max-width: 1000px) {
+  .mainInquiries{
+    overflow: auto !important; 
+  }
+  .inquiries {
+    justify-content: center !important;
+  } 
+}

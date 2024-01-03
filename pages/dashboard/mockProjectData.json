@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01",
+    "name": "Jane Cooper",
+    "projectType": "Residential",
+    "state": "Aberdeen",
+    "status" : "In Progress",
+    "estBudget": "$32,400"
+  },
+  {
+    "id": "02",
+    "name": "Jane Cooper",
+    "projectType": "Residential",
+    "state": "Aberdeen",
+    "status" : "Completed",
+    "estBudget": "$32,400"
+  },
+  {
+    "id": "03",
+    "name": "Jane Cooper",
+    "projectType": "Residential",
+    "state": "Aberdeen",
+    "status" : "On Hold",
+    "estBudget": "$32,400"
+  },
+  {
+    "id": "04",
+    "name": "Jane Cooper",
+    "projectType": "Residential",
+    "state": "Aberdeen",
+    "status" : "Cancelled",
+    "estBudget": "$32,400"
+  },
+  {
+    "id": "05",
+    "name": "Jane Cooper",
+    "projectType": "Residential",
+    "state": "Aberdeen",
+    "status" : "Received",
+    "estBudget": "$32,400"
+  }
+]
